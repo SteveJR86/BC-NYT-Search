@@ -6,9 +6,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./css/styles.css" rel="stylesheet">
   <title>Document</title>
+
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="css/index.css">
+
+ <title>New York Times Article Search</title>
 </head>
 <body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="./script/script.js"></script>
+
+  <!--Jumbotron-->
+  <div class="jumbotron">
+    <h1 class="display-4">New York Times Search</h1>
+    <hr class="my-4">
+  </div>
+
+  <form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Search Term:</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect2">Start Year:</label>
+      <select multiple class="form-control" id="exampleFormControlSelect2">
+        
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">End Year:</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+    </div>
+  </form>
+
+  <form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Top Articles:</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1">
+    </div>
+  </form>
 </body>
 </html>
